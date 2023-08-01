@@ -1,0 +1,396 @@
+[{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60df3"
+  },
+  "name": "Consola Arcade Pandora Box 6s",
+  "price": 1500,
+  "stock": 10,
+  "brand": "Pandora",
+  "category": "Videojuegos",
+  "shortDescription": "Consola de arcade con 1500 juegos.",
+  "longDescription": "Disfruta de los clásicos juegos arcade con esta consola Pandora Box 6s que cuenta con 1500 juegos incorporados.",
+  "freeShipping": false,
+  "ageFrom": 12,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "pandora_box.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60df4"
+  },
+  "name": "Drone Wifi E88A Fpv",
+  "price": 2999.99,
+  "stock": 5,
+  "brand": "E88A",
+  "category": "Drones",
+  "shortDescription": "Drone con cámara FPV y batería de larga duración.",
+  "longDescription": "Captura imágenes impresionantes desde las alturas con este drone Wifi E88A FPV equipado con cámara 4k y batería de larga duración. Incluye estuche de transporte.",
+  "freeShipping": true,
+  "ageFrom": 14,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "drone_e88a.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60df5"
+  },
+  "name": "Consola Arcade Pandora Box 6s",
+  "price": 1500,
+  "stock": 10,
+  "brand": "Pandora",
+  "category": "Videojuegos",
+  "shortDescription": "Consola de arcade con 1500 juegos.",
+  "longDescription": "Disfruta de los clásicos juegos arcade con esta consola Pandora Box 6s que cuenta con 1500 juegos incorporados.",
+  "freeShipping": false,
+  "ageFrom": 12,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "pandora_box.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60df6"
+  },
+  "name": "Drone Wifi E88A Fpv",
+  "price": 2999.99,
+  "stock": 5,
+  "brand": "E88A",
+  "category": "Drones",
+  "shortDescription": "Drone con cámara FPV y batería de larga duración.",
+  "longDescription": "Captura imágenes impresionantes desde las alturas con este drone Wifi E88A FPV equipado con cámara 4k y batería de larga duración. Incluye estuche de transporte.",
+  "freeShipping": true,
+  "ageFrom": 14,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "drone_e88a.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60df7"
+  },
+  "name": "Robot Programación inteligente",
+  "price": 1299,
+  "stock": 8,
+  "brand": "TechBot",
+  "category": "Robots",
+  "shortDescription": "Robot con programación inteligente y control remoto.",
+  "longDescription": "Este robot de última generación cuenta con programación inteligente y puede ser controlado remotamente para realizar diversas acciones y movimientos.",
+  "freeShipping": true,
+  "ageFrom": 8,
+  "ageUpTo": 14,
+  "ageUnit": "años",
+  "mainPhoto": "robot_programacion.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60df8"
+  },
+  "name": "Kit Robot Solar 4 En 1",
+  "price": 599,
+  "stock": 15,
+  "brand": "EcoBot",
+  "category": "Robots",
+  "shortDescription": "Kit para armar 4 robots solares diferentes.",
+  "longDescription": "Fomenta la creatividad y el aprendizaje sobre energía solar con este kit que permite armar 4 robots diferentes impulsados por energía solar.",
+  "freeShipping": false,
+  "ageFrom": 10,
+  "ageUpTo": 16,
+  "ageUnit": "años",
+  "mainPhoto": "kit_robot_solar.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60df9"
+  },
+  "name": "Mascota Virtual Tamagotchi",
+  "price": 499.99,
+  "stock": 20,
+  "brand": "Bandai",
+  "category": "Electrónicos",
+  "shortDescription": "Mascota virtual Tamagotchi portátil retro.",
+  "longDescription": "Revive la nostalgia con este Tamagotchi portátil que te permite cuidar de tu propia mascota virtual, alimentarla, jugar y mantenerla feliz.",
+  "freeShipping": true,
+  "ageFrom": 6,
+  "ageUpTo": 12,
+  "ageUnit": "años",
+  "mainPhoto": "tamagotchi.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60dfa"
+  },
+  "name": "Juguetes de construcción de robots Sciencow 25 en 1",
+  "price": 799,
+  "stock": 12,
+  "brand": "Sciencow",
+  "category": "Juguetes de construcción",
+  "shortDescription": "Set de 25 juguetes de construcción para armar robots.",
+  "longDescription": "Impulsa la creatividad y habilidades de resolución de problemas con este set de 25 juguetes de construcción que permiten armar diversos robots y estructuras.",
+  "freeShipping": false,
+  "ageFrom": 8,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "sciencow_robots.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60dfb"
+  },
+  "name": "Ametralladora Lanza Dardos Juguete",
+  "price": 349.5,
+  "stock": 18,
+  "brand": "ShootMaster",
+  "category": "Armas de juguete",
+  "shortDescription": "Ametralladora lanza dardos con 40 balas de goma.",
+  "longDescription": "Este juguete de ametralladora lanza dardos es seguro y divertido para simular misiones y aventuras. Viene con 40 balas de goma.",
+  "freeShipping": true,
+  "ageFrom": 6,
+  "ageUpTo": 12,
+  "ageUnit": "años",
+  "mainPhoto": "ametralladora_juguete.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60dfc"
+  },
+  "name": "Volante + Pedalera Noga Drifter",
+  "price": 1599.99,
+  "stock": 7,
+  "brand": "Noga",
+  "category": "Videojuegos",
+  "shortDescription": "Volante y pedalera para PC, PS3 y PS4.",
+  "longDescription": "Mejora tu experiencia de juego con este volante y pedalera Noga Drifter compatibles con PC, PS3 y PS4. Sensación de conducción realista.",
+  "freeShipping": false,
+  "ageFrom": 12,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "volante_noga.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60dfd"
+  },
+  "name": "Alfombra De Baile Para Niños",
+  "price": 799,
+  "stock": 25,
+  "brand": "FunTime",
+  "category": "Juegos de Baile",
+  "shortDescription": "Alfombra de baile interactiva para niños.",
+  "longDescription": "Diviértete y ejercítate con esta alfombra de baile interactiva que incluye varios modos de juego y es ideal para niños.",
+  "freeShipping": true,
+  "ageFrom": 4,
+  "ageUpTo": 10,
+  "ageUnit": "años",
+  "mainPhoto": "alfombra_de_baile.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60dfe"
+  },
+  "name": "Nintendo Switch OLED Pokémon Edition",
+  "price": 5999,
+  "stock": 3,
+  "brand": "Nintendo",
+  "category": "Videojuegos",
+  "shortDescription": "Nintendo Switch OLED con diseño Pokémon Scarlet & Violet.",
+  "longDescription": "Edición especial de Nintendo Switch OLED con diseño de Pokémon Scarlet & Violet. Disfruta de tus juegos favoritos en alta definición y llévala contigo a todas partes.",
+  "freeShipping": false,
+  "ageFrom": 6,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "nintendo_switch_pokemon.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60dff"
+  },
+  "name": "Juego Detector De Mentiras Poligrafo",
+  "price": 399.99,
+  "stock": 9,
+  "brand": "TruthFinder",
+  "category": "Juegos de Mesa",
+  "shortDescription": "Juego de detector de mentiras polígrafo.",
+  "longDescription": "Pon a prueba tus habilidades detectivescas con este divertido juego de detector de mentiras polígrafo. Pasa momentos emocionantes con familia y amigos.",
+  "freeShipping": true,
+  "ageFrom": 14,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "juego_detector_mentiras.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60e00"
+  },
+  "name": "VOLANTEXRC Brushless Remote Control Boat AtomicX",
+  "price": 2199,
+  "stock": 6,
+  "brand": "VOLANTEXRC",
+  "category": "Barcos teledirigidos",
+  "shortDescription": "Barco teledirigido VOLANTEXRC Brushless AtomicX.",
+  "longDescription": "Experimenta la emoción de controlar este barco teledirigido VOLANTEXRC Brushless AtomicX que alcanza una velocidad de hasta 40 MPH.",
+  "freeShipping": false,
+  "ageFrom": 10,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "volantexrc_boat.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60e01"
+  },
+  "name": "Mould King Pirate Ship Building Blocks Set",
+  "price": 799,
+  "stock": 11,
+  "brand": "Mould King",
+  "category": "Juguetes de construcción",
+  "shortDescription": "Set de bloques para construir un barco pirata.",
+  "longDescription": "Crea tu propio barco pirata con este set de bloques de construcción Mould King. Incluye piezas detalladas y figuras de piratas.",
+  "freeShipping": true,
+  "ageFrom": 8,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "mould_king_pirate_ship.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60e02"
+  },
+  "name": "Juguete de tiburón eOfficce con control remoto de 2.4 GHz",
+  "price": 899,
+  "stock": 14,
+  "brand": "eOfficce",
+  "category": "Animales teledirigidos",
+  "shortDescription": "Tiburón teledirigido con control remoto.",
+  "longDescription": "Diviértete controlando este tiburón teledirigido con control remoto de 2.4 GHz. Realiza giros y movimientos sorprendentes en el agua.",
+  "freeShipping": false,
+  "ageFrom": 6,
+  "ageUpTo": 12,
+  "ageUnit": "años",
+  "mainPhoto": "tiburon_teledirigido.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60e03"
+  },
+  "name": "Juegos de pistas de autos de carreras eléctricos de alta velocidad",
+  "price": 1499.99,
+  "stock": 4,
+  "brand": "RacingMaster",
+  "category": "Autos teledirigidos",
+  "shortDescription": "Pistas de autos de carreras eléctricos de alta velocidad.",
+  "longDescription": "Desafía a tus amigos con estos autos de carreras eléctricos de alta velocidad y compite en emocionantes pistas.",
+  "freeShipping": true,
+  "ageFrom": 8,
+  "ageUpTo": 14,
+  "ageUnit": "años",
+  "mainPhoto": "pistas_autos_carreras.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60e04"
+  },
+  "name": "Coche con control remoto Tecnock",
+  "price": 899,
+  "stock": 20,
+  "brand": "TecnoToys",
+  "category": "Autos teledirigidos",
+  "shortDescription": "Coche con control remoto para niños y adultos.",
+  "longDescription": "Diviértete con este coche teledirigido Tecnock que brinda horas de entretenimiento para niños y adultos por igual.",
+  "freeShipping": false,
+  "ageFrom": 6,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "coche_control_remoto.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60e05"
+  },
+  "name": "Tren a batería para vías de tren de madera",
+  "price": 1499,
+  "stock": 10,
+  "brand": "WoodenRail",
+  "category": "Trenes de juguete",
+  "shortDescription": "Tren a batería para vías de tren de madera.",
+  "longDescription": "Construye tu propia vía de tren de madera y observa cómo este tren a batería recorre el circuito. Incluye locomotora y vagones.",
+  "freeShipping": true,
+  "ageFrom": 3,
+  "ageUpTo": 8,
+  "ageUnit": "años",
+  "mainPhoto": "tren_bateria_madera.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60e06"
+  },
+  "name": "Kits científicos para niños de 8 a 12 años",
+  "price": 699,
+  "stock": 22,
+  "brand": "Scienceland",
+  "category": "Juguetes educativos",
+  "shortDescription": "Kits científicos para niños de 8 a 12 años.",
+  "longDescription": "Despierta la curiosidad científica de los niños con estos kits que incluyen experimentos y actividades educativas.",
+  "freeShipping": false,
+  "ageFrom": 8,
+  "ageUpTo": 12,
+  "ageUnit": "años",
+  "mainPhoto": "kits_cientificos_ninos.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60e07"
+  },
+  "name": "Juguete A Control Remoto Dolanus Helicóptero Azul",
+  "price": 999,
+  "stock": 17,
+  "brand": "Dolanus",
+  "category": "Helicópteros teledirigidos",
+  "shortDescription": "Helicóptero a control remoto Dolanus.",
+  "longDescription": "Disfruta de la emoción de pilotar este helicóptero a control remoto Dolanus. Fácil de manejar y perfecto para principiantes.",
+  "freeShipping": true,
+  "ageFrom": 10,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "helicoptero_control_remoto.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c682468fd09bcd83c60e08"
+  },
+  "name": "Avión A Radio Control 21 Cm Hero Fighter",
+  "price": 899,
+  "stock": 13,
+  "brand": "SkyMaster",
+  "category": "Aviones teledirigidos",
+  "shortDescription": "Avión a radio control Hero Fighter.",
+  "longDescription": "Pilotea este avión a radio control Hero Fighter y realiza acrobacias en el aire. Perfecto para aquellos que aman la aviación.",
+  "freeShipping": false,
+  "ageFrom": 12,
+  "ageUpTo": 99,
+  "ageUnit": "años",
+  "mainPhoto": "avion_radio_control.jpg",
+  "__v": 0
+}]

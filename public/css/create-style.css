@@ -1,0 +1,332 @@
+.create-cont {
+    /* color: #468faf; */
+    width: 75%;
+    /* background: hsla(230, 66%, 66%, 0.15); */
+    background-color: rgba(182, 145, 188, 0.1);
+
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+
+.create-cont h3 {
+    font-size: xx-large;
+    font-weight: 400;
+    -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+        }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+@keyframes focus-in-contract {
+    0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.create-cont h3,
+.create-cont p {
+    text-align: center;
+    /* padding: 1em; */
+
+}
+
+.create-cont label,
+.create-cont textarea,
+.create-cont input {
+    font-weight: 400;
+    margin: .5em;
+    height: 30px;
+    
+}
+.create-cont select {
+    margin: 5px;
+    height: 30px;
+}
+
+.fs-group {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "name price"
+        "stock brand"
+        "category short-desc";
+    }
+
+.name { grid-area: name; }
+
+.price { grid-area: price; }
+
+.stock { grid-area: stock; }
+
+.brand { grid-area: brand; }
+
+.category { grid-area: category; }
+
+.short-desc { grid-area: short-desc; }
+
+
+.name,
+.price,
+.stock,
+.brand,
+.category,
+.short-desc,
+.age-from,
+.age-to {
+    display: flex;
+    flex-direction: column;
+}
+
+.name label,
+.price label,
+.stock label,
+.brand label,
+.category label,
+.short-desc label,
+.age-from label,
+.age-to label {
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+.long-desc {
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.long-desc label{
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+.long-desc textarea {
+    width: 500px; 
+    height: 150px; 
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.shipping {
+    text-align: center;
+    margin: 1.7rem;
+}
+
+
+.nd-group {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "age-from age-to";
+}  
+
+.age-from { grid-area: age-from; }
+
+.age-to { grid-area: age-to; }
+
+.age-from select,
+.age-to select,
+.brand select,
+.category select {
+    text-align: center;
+}
+
+.create-img {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    margin: 3rem;
+}
+
+.create-img label {
+    width: 100px;
+}
+
+.age-from,
+.age-to {
+    min-width: 150px;
+}
+
+.create-send input {
+    color: whitesmoke;
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    background-color: #1a1b1c;
+    border-radius: 4px;
+}
+
+#photo {
+    padding-top: .3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-send input:hover{
+    background-color: #014f86;
+    border-color: #014f86 solid 2px;
+}
+
+.create-cont p{
+    color: black;
+    font-weight: 400;
+}
+
+        /*responsive */
+@media (max-width: 425px) {
+    .create-cont {
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 15px;
+    }
+
+    .fs-group {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "name"
+        "price"
+        "stock"
+        "brand"
+        "category"
+        "short-desc";
+    }
+
+    .nd-group {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "age-from"
+        "age-to";
+    }
+
+    .create-img {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        margin: 2rem 0;
+    }
+    
+    .long-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .long-desc label {
+        margin-bottom: 10px;
+    }
+    
+    .long-desc textarea {
+        width: 100%;
+        max-width: 500px;
+        height: 250px;
+        max-height: 300px;
+    }
+
+    .create-send input {
+        width: 80%;
+    }
+
+    .short-desc textarea {
+        width: 100%;
+        max-width: 500px;
+        height: 100px;
+        max-height: 300px;
+    }
+
+    .create-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3em 0;
+    }
+    
+    .create-img label {
+        margin-bottom: 10px;
+    }
+}
+
+.mandatory p{
+    color:whitesmoke;
+    font-weight: 100;
+}
+
+
+/*table*/
+
+.table-products {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(80px);
+}
+
+.table-products td,
+.table-products th {
+    border: 1px solid #777;
+}
+
+td[data-product-property="_id"] {
+    background-color: rgba(182, 145, 188, 0.1);
+
+}
+
+th {
+    color: black;
+    text-align: center;
+}
+
+td[data-product-property="price"] {
+    background-color: rgba(182, 145, 188, 0.1);
+
+}
+
+.create_title {
+    text-align: center;
+    margin: 1rem;
+}
+
+.section-products-table {
+    /* border: red solid 1px; */
+    margin: 1rem;
+}
+
+tr:hover {
+    background-color: rgba(182, 145, 188, 0.1);
+
+}
+
+
+/*fin table*/

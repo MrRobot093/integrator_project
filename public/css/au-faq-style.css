@@ -1,0 +1,201 @@
+/*faq*/
+.faq-title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 35px;
+    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+@keyframes focus-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.accordion {
+    margin: 2rem 5rem;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .accordion {
+        margin: 2rem;
+    }
+}
+
+.accordion h3 {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.accordion-title {
+    background-color: #2a6f97;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: #468faf;
+}
+
+.accordion-title:hover {
+    background-color: #014f86;
+}
+
+.accordion-content {
+    background-color: rgba(150, 187, 246, 0.3);
+    backdrop-filter: blur(5px);
+    color: #000022;
+    display: none;
+    font-weight: 400;
+}
+
+.accordion-title--open {
+    background-color: #014f86;
+}
+
+.accordion-title--open + .accordion-content {
+    display: block;
+}
+
+.accordion-content {
+    padding: 1em;
+    -webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.accordion .content {
+    display: none;
+}
+
+.accordion .content.open {
+    display: block;
+}
+
+
+
+/* about/faq content*/
+
+.au-content-container {
+    margin: 1rem;
+}
+
+.au-content{
+    color: whitesmoke;
+    margin: 1rem;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: rgba(250, 250, 250, 0.1);
+    backdrop-filter: blur(15px);
+}
+
+.au-content h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 35px;
+    padding-bottom: 20px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+
+/*video*/
+
+.au-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 50%;
+    max-height: 50%; */
+    margin: 1rem 0;
+    margin-left: 5rem;
+}
+
+.au-video iframe {
+    max-width: 60%;
+    /* height: auto; */
+    border-radius: 5px;
+    margin: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .au-video {
+        padding-bottom: 75%;
+    }
+}

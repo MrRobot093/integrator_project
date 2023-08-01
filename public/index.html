@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/au-faq-style.css">
+    <link rel="stylesheet" href="css/create-style.css">
+    <link rel="stylesheet" href="css/contact-style.css">
+    <link type="image/png" sizes="32x32" rel="icon" href="img/favicon/space.png">
+</head>
+<body>
+
+    <header class="header header-main">
+        <div class="menu-cont">
+            <nav class="h-nav" id="h-nav">
+                <div class="navicon">
+                <img src="img/ico/menu-btn.ico" alt="h-m">
+                <div>
+                <a href="#/inicio">Home</a>
+                <a href="#/nosotros">About-us</a>
+                <a href="#/alta">Create</a>
+                <a href="#/contacto">Contact</a>
+                <a id="carrito"">Cart</a>
+            </nav>
+        </div>
+            <a href="index.html" class="logo">
+                <img id="img-nav"   src="img/logo/polybius-removebg-preview.png" alt="Polybiuslab">
+            </a>
+    </header>
+
+    <div id="carritoContenido">
+    <button id="cerrarCarrito" title="close cart">X</button>
+    <table class="cart-products">
+        <caption>Cart products</caption>
+        <thead>
+            <tr>
+                <th scope="column">Image</th>
+                <th scope="column">Name</th>
+                <th scope="column">Price</th>
+                <th scope="column">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td><img src="img/products/jet.jpg" alt="" srcset=""></td>
+                    <td data-product-property="name">SkyMaster Hero Fighter</td>
+                    <td data-product-property="price">$899</td>
+                    <td>
+                        <button class="btn-payment" title="Eliminar producto">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/products/dronWifi.jpg" alt="" srcset=""></td>
+                    <td data-product-property="name">Wifi Drone E88A Fpv</td>
+                    <td data-product-property="price">$2999.99</td>
+                    <td>
+                        <button class="btn-payment" title="Eliminar producto">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/products/weapon.jpg" alt="" srcset=""></td>
+                    <td data-product-property="name">Toy Dart Gun Machine Gun</td>
+                    <td data-product-property="price">$349.5</td>
+                    <td>
+                        <button class="btn-payment" title="Eliminar producto">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/products/nintendoS.jpg" alt="" srcset=""></td>
+                    <td data-product-property="name">Nintendo Switch OLED</td>
+                    <td data-product-property="price">$5999</td>
+                    <td>
+                        <button class="btn-payment" title="Eliminar producto">Eliminar</button>
+                    </td>
+                </tr>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total (taxes incluid): </td>
+                <td colspan="1"> $10,247.4</td>
+            </tr>
+            <tr>
+                <td colspan="3">Go to payment</td>
+                <td colspan="1">
+                    <button class="btn-payment" title="paymet">Here</button>
+                    
+                </td>
+                
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+
+
+
+    <main></main>
+
+    <footer class="footer">
+        <div class="social-media">
+            <h3>Follow us</h3>
+            <a href="https://www.facebook.com/" target="_blank" class="rrss-f"></a>
+            <a href="https://twitter.com/" target="_blank" class="rrss-t"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="rrss-i"></a>
+            <a href="https://www.youtube.com/" target="_blank" class="rrss-y"></a>
+        </div>
+        <div>
+            <nav class="footer-nav">
+                <ul>
+                    <div>
+                        <li><a href="#/inicio">
+                        Home</a></li>
+                    </div>
+                    <div>
+                        <li><a href="#/nosotros">
+                        About-us</a></li>
+                        </div>
+                    <div>
+                        <li><a href="#/alta">
+                        Create</a></li>
+                    </div>
+                    <div>
+                        <li><a href="#/contacto">
+                        Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+            <div class="corpo">
+                <p>&copy; 2023 Polybiuslab. All rights reserved. | Cristiam Higuera - integrator Project</p>
+        </div>
+    </footer>
+
+
+
+    <script src="js/vendor/handlebars/handlebars.min-v4.7.7.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/modules/cart.js"></script>
+</body>
+</html>

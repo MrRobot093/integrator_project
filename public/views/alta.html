@@ -1,0 +1,126 @@
+
+<h1 class="create_title">Create dashboard</h1>
+
+<section class="section-products-table">
+    <div class="products-table-container"></div>
+</section>
+
+<div class="create-cont">
+    <h3>Toy inventory form</h3>
+    <form>
+        <div class="fs-group">
+        <div class="name">
+            <label for="name">Name: *</label>
+            <input type="text" name="nombre" id="name" required min="2" maxlength="10" autofocus>
+        </div>
+        <div class="price">
+            <label for="price">Price: *</label>
+            <input type="number" name="price" id="price" required min="0">
+        </div>
+        <div class="stock">
+            <label for="stock">Stock: *</label>
+            <input type="number" name="stock" id="stock" required min="0">
+        </div>
+        <div class="brand">
+          <label  for="brand" required>Brand: *</label>
+            <select>
+                <option>Select an option</option>
+                <option>Lego</option>
+                <option>Mattel</option>
+                <option>Hasbro</option>
+                <option>Fisher-Price</option>
+                <option>Little Tikes</option>
+                <option>VTec</option>
+                <option>Radio Flyer</option>
+                <option>Chicco</option>
+                <option>Playmobil</option>
+                <option>Cactus Plant Flea Market</option>
+            </select>
+        </div>
+        <div class="category">
+          <label for="category" required>Category: *</label>
+            <select>
+                <option>Select an option</option>
+                <option>Board games</option>
+                <option>Electronic games</option>
+                <option>Toy vehicles</option>
+                <option>Action figures</option>
+                <option>Musical toys</option>
+                <option>Educational toys</option>
+                <option>Building toys</option>
+                <option>Plush toys</option>
+                <option>Science toys</option>
+                <option>Arts and crafts toys</option>
+                <option>Adventure toys</option>
+            </select>
+        </div>
+        <div class="short-desc">
+          <label for="short-desc">Short description: *</label>
+            <textarea id="textarea" name="short-desc" id="short-desc" required rows="3" cols="20" minlength="10" maxlength="200" placeholder="Please enter a brief description of the product."></textarea>
+            <span id="characterCounter"></span>
+        </div>
+        </div>
+        <div class="long-desc">
+          <label for="long-desc">Long description: *</label>
+            <textarea id="textarea" name="long-desc" id="long-desc" required rows="10" cols="50" minlength="10" maxlength="2000" placeholder="Please enter a detailed description of the product.."></textarea>
+        </div>
+        <div class="shipping">
+          <label for="shipping">Free shipping: *</label>
+            <input type="checkbox" name="shipping" id="shipping" required>
+        </div>
+        <div class="nd-group">
+        <div class="age-from">
+          <label for="age-from" required>Age From: *</label>
+            <select>
+                <option>Select an option</option>
+                <option>0 to 12 months</option>
+                <option>1 year</option>
+                <option>2 years</option>
+                <option>3 years</option>
+                <option>4 years</option>
+                <option>5 years</option>
+                <option>6 years</option>
+                <option>7 years</option>
+                <option>8 years</option>
+                <option>9 years</option>
+                <option>10 years</option>
+                <option>11 years</option>
+                <option>12 years</option>
+                <option>13 years or older</option>
+                <option disabled>Do children never stop being children?🤔</option>
+            </select>
+        </div>
+        <div class="age-to">
+          <label for="age-to" required>Age to: *</label required>
+            <select>
+                <option>Select an option</option>
+                <option>0 to 12 months</option>
+                <option>1 year</option>
+                <option>2 years</option>
+                <option>3 years</option>
+                <option>4 years</option>
+                <option>5 years</option>
+                <option>6 years</option>
+                <option>7 years</option>
+                <option>8 years</option>
+                <option>9 years</option>
+                <option>10 years</option>
+                <option>11 years</option>
+                <option>12 years</option>
+                <option>13 years or older</option>
+                <option disabled>Do children never stop being children?🤔</option>
+            </select>
+        </div>
+    </div>
+    <div class="create-img">
+        <label for="photo">Picture: *</label>
+        <input type="file" name="create-pic" id="photo" accept="image/*" required>
+    </div><br>
+        <div class="mandatory">
+            <p>-Items marked with (*) are mandatory-</p>
+        </div><br>
+        <div>
+            <button id="submit_btn" class="btn" title="Editar producto">submit</button>
+        </div>
+    </form>
+</div>
